@@ -32,6 +32,6 @@ VALUES
   Your job is in having the names and addresses of customers who live in 'Porto Alegre', to deliver the invitations personally.
 */
 
---- Answar
+--- Answer
 
 select name, street from customers where city = 'Porto Alegre';
